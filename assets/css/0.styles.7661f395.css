@@ -138,6 +138,8 @@
     .mask .logo {
         font-size: 90px;
         right: 0;
+        left: 50%;
+        bottom: 5%;
     }
     .home .hero {
         background-position: 50% 50%;
