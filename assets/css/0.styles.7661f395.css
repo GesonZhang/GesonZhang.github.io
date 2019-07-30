@@ -27,6 +27,7 @@
     position: absolute;
     bottom: 10%;
     right: 15%;
+    animation:shake 1s infinite;
 }
 .home {
     /* padding:3.6rem 2rem 0; */
@@ -43,11 +44,12 @@
     background-position: 50% 50%;
 }
 .home .hero .main-title {
-    max-width:50%;
+    max-width:80%;
     max-height: 10%;
     font-size: 90px;
     font-family: pic;
     color: #fff;
+    margin: 0 atuo;
     /* max-height:280px;
     display:block;
     margin:3rem auto 1.5rem */
@@ -123,6 +125,17 @@
     border-top:1px solid #eaecef;
     text-align:center;
     color:#4e6e8e
+}
+@keyframes shake {
+    0% {
+       color:#2C3E50;
+    }
+    50% {
+      color:#CCCC00;
+    }
+    100% {
+      color:#2C3E50;
+    }
 }
 @media (max-width:719px) {
     .home .features {
