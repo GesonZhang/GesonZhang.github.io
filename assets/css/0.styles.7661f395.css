@@ -107,7 +107,8 @@
 }
 .home .self .self-head{
     width: 50%;
-    display: inline-block;
+    height: 100%;
+    float: left;
     text-align:center;
     background-image: url('../img/head.jpg');
     background-size: cover;
@@ -117,7 +118,8 @@
 }
 .home .self .self-content {
     width: 50%;
-    display: inline-block;
+    height: 100%;
+    float: right;
     text-align:center;
     background-color: #fff;
 }
