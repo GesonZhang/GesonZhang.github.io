@@ -13,9 +13,9 @@
 }
 .home .hero img {
     max-width:100%;
-    max-height:280px;
+    /* max-height:280px;
     display:block;
-    margin:3rem auto 1.5rem
+    margin:3rem auto 1.5rem */
 }
 .home .hero h1 {
     font-size:3rem
@@ -401,7 +401,7 @@
 .navbar .links {
     padding-left:1.5rem;
     box-sizing:border-box;
-    background-color:#fff;
+    /* background-color:#fff; */
     white-space:nowrap;
     font-size:.9rem;
     position:absolute;
@@ -1020,9 +1020,9 @@ body {
     z-index:20;
     right:0;
     height:3.6rem;
-    background-color:#fff;
+    background-color: transparent;
     box-sizing:border-box;
-    border-bottom:1px solid #eaecef
+    /* border-bottom:1px solid #eaecef */
 }
 .navbar, .sidebar-mask {
     position:fixed;
