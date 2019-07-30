@@ -105,6 +105,22 @@
     align-content:stretch;
     justify-content:space-between
 }
+.home .self .self-head{
+    width: 50%;
+    display: inline-block;
+    text-align:center;
+    background-image: url('../img/head.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.home .self .self-content {
+    width: 50%;
+    display: inline-block;
+    text-align:center;
+    background-color: #fff;
+}
 .home .feature {
     flex-grow:1;
     flex-basis:30%;
