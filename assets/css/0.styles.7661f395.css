@@ -96,13 +96,12 @@
     }
 }
 @media (max-width:419px) {
-    .home {
-        padding-left:1.5rem;
-        padding-right:1.5rem
+    .home .hero {
+        background-position: center;
     }
     .home .hero img {
         max-height:210px;
-        margin:2rem auto 1.2rem
+        /* margin:2rem auto 1.2rem */
     }
     .home .hero h1 {
         font-size:2rem
