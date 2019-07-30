@@ -99,7 +99,8 @@
 @media (max-width:419px) {
     .home .hero {
         background-position: 50% 50%;
-        /* background-size: auto 100%; */
+        background-size: cover;
+        background-attachment: scroll;
     }
     .home .hero .main-title {
         max-width: 90%;
