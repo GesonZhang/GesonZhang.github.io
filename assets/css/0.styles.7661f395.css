@@ -11,12 +11,11 @@
 
 }
 .mask img {
-    width: 50%;
+    /* width: 50%; */
+    height: 100%;
     position: absolute;
-    top: 50%;
-    margin-left: -25%;
     left: 50%;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
 }
 .home {
     /* padding:3.6rem 2rem 0; */
@@ -121,10 +120,10 @@
     }
 }
 @media (max-width:419px) {
-    .mask img {
+    /* .mask img {
         width: 400px;
         margin-left: -200px;
-    }
+    } */
     .home .hero {
         background-position: 50% 50%;
         background-size: cover;
