@@ -22,6 +22,8 @@
     max-width:50%;
     max-height: 5%;
     margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
 }
 .home .hero .hero-box {
     width: 100%;
