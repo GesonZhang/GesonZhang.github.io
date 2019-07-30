@@ -127,14 +127,11 @@
     color:#4e6e8e
 }
 @keyframes shake {
-    0% {
+    30% {
         color:#2C3E50;
     }
-    30% {
+    70% {
        color:#669999;
-    }
-    50% {
-      color:#FF9900;
     }
     100% {
       color:#CCCC66;
