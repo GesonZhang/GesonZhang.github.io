@@ -10,16 +10,17 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .home .hero .main-title {
-    max-width:100%;
+    max-width:50%;
     max-height: 10%;
     /* max-height:280px;
     display:block;
     margin:3rem auto 1.5rem */
 }
 .home .hero .sub-title {
-    max-width:50%;
+    max-width:30%;
     max-height: 5%;
     margin-bottom: 10px;
     display: block;
@@ -30,7 +31,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
+    margin-left: -50%;
 }
 .home .hero h1 {
     font-size:3rem
