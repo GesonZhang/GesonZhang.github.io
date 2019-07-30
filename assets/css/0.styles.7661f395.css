@@ -135,6 +135,10 @@
         width: 400px;
         margin-left: -200px;
     } */
+    .mask .logo {
+        font-size: 90px;
+        right: 0;
+    }
     .home .hero {
         background-position: 50% 50%;
         background-size: cover;
