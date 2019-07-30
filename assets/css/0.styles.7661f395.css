@@ -4,13 +4,17 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-image: url('../img/maskbg.png');
+    background-repeat: repeat;
+    /* background-color: #000; */
     z-index: 10000;
+
 }
 .mask img {
     width: 80%;
     position: absolute;
-    top: 40%;
+    top: 50%;
+    margin-top: -25%;
     left: 50%;
     transform: translateX(-50%);
 }
