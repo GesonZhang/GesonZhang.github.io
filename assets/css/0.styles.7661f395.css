@@ -2,10 +2,14 @@
     /* padding:3.6rem 2rem 0; */
     /* max-width:960px; */
     /* margin:0 auto; */
-    background-image: url('../img/spacewalk.jpg');
+    /* background-image: url('../img/spacewalk.jpg'); */
 }
 .home .hero {
-    text-align:center
+    text-align:center;
+    background-image: url('../img/spacewalk.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .home .hero img {
     max-width:100%;
