@@ -1,6 +1,6 @@
 @font-face {
     font-family: pic;
-    src: url('../font/tens.otf');
+    src: url('../font/tens.ttf');
 }
 .mask {
     position: fixed;
