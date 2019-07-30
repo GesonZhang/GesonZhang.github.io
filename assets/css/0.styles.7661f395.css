@@ -128,13 +128,16 @@
 }
 @keyframes shake {
     0% {
-       color:#2C3E50;
+        color:#2C3E50;
+    }
+    30% {
+       color:#669999;
     }
     50% {
-      color:#CCCC00;
+      color:#FF9900;
     }
     100% {
-      color:#2C3E50;
+      color:#CCCC66;
     }
 }
 @media (max-width:719px) {
