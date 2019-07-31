@@ -73,6 +73,11 @@
     transform: translateY(-50%);
     margin-left: -50%;
 }
+.home .hero .hero-mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}
 .home .hero h1 {
     font-size:3rem
 }
@@ -131,15 +136,17 @@
     text-align: center;
     position: absolute;
     top: 50%;
-    transform: rotateY(-50%);
+    transform: translateY(-50%);
     font-size: 44px;
-    font-family: bebas neue,PingFang SC,Microsoft YaHei,微软雅黑,STXihei,华文细黑,sans-serif;
+    font-family: PingFangSC-Semibold, sans-serif;
     color: #fff;
     line-height: 64px;
+    letter-spacing: -1px;
 }
-.home .self .self-head-title span{
+.home .self .self-head-title span {
     font-size: 32px;
     font-family: nic;
+    letter-spacing: 2px;
 }
 .home .self .self-content {
     width: 50%;
