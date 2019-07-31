@@ -2,6 +2,10 @@
     font-family: pic;
     src: url('../font/tens.ttf');
 }
+@font-face {
+    font-family: nic;
+    src: url('../font/Font.ttf');
+}
 .mask {
     position: fixed;
     top: 0;
@@ -114,7 +118,9 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: -40% 50%;
+    font-size: 50px;
+    font-family: nic;
 }
 .home .self .self-content {
     width: 50%;
